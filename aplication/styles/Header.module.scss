@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  padding: 4rem;
+  padding-top: 1rem;
+  .container {
+    border-bottom: 3px solid crimson;
+    // background-color: aquamarine;
+    .header {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      .createNewBlog {
+        padding: 5px 7px 7px 10px;
+        font-size: 1.2rem;
+        color: rgb(126, 119, 119);
+        font-weight: 600;
+        cursor: pointer;
+        &:hover {
+          padding-top: 0px;
+          transition: all 0.4s;
+        }
+      }
+
+      .profileUserName {
+        padding: 5px 7px 7px 10px;
+        background-color: white;
+        outline: none;
+        border: none;
+        font-size: 1.2rem;
+        color: rgb(126, 119, 119);
+        font-weight: 500;
+        cursor: pointer;
+        &:hover {
+          padding-top: 0px;
+          transition: all 0.4s;
+        }
+      }
+
+      > a {
+        flex: 1;
+        color: rgb(99, 96, 96);
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 3rem;
+      }
+      > nav {
+        flex: 1;
+        gap: 0.5rem;
+        display: flex;
+        justify-content: flex-end;
+
+        > button {
+          padding: 5px 7px 4px 10px;
+          background-color: white;
+          outline: none;
+          border: none;
+          font-size: 1rem;
+          color: rgb(126, 119, 119);
+          font-weight: 600;
+          cursor: pointer;
+          &:hover {
+            padding-top: 0px;
+            transition: all 0.4s;
+          }
+        }
+        > a {
+          text-decoration: none;
+          padding: 5px 7px 7px 10px;
+          // background-color: aquamarine;
+          font-size: 1.2rem;
+          color: rgb(126, 119, 119);
+          font-weight: 500;
+          cursor: pointer;
+          &:hover {
+            padding-top: 0px;
+            transition: all 0.4s;
+          }
+        }
+      }
+    }
+  }
+}

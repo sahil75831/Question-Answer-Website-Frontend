@@ -1,0 +1,17 @@
+.wrapper{
+    width: 100%;
+    .container{
+        padding: 5px;
+        background-color:crimson;
+        .postAnswer{
+            text-transform: capitalize;
+            font-weight: 600;
+            font-size: 1.2rem;
+            color: wheat;
+        }
+        &:hover{
+            transition: all 0.5s;
+            background-color:dodgerblue;
+        }
+    }
+}
